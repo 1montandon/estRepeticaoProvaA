@@ -2,8 +2,10 @@
 
 _ANTES DE COMEÇAR A PROVA, VERIFIQUE SE VOCÊ DEVERÁ FAZER A **PROVA A** OU A **PROVA B**._
 
-Para clonar o repositório, copie o link do repositório, que segue abaixo, para clonar usando o atalho _**Ctrl + Shift + P**_ e digitando _**"Clonar"**_
+Para clonar o repositório, copie o link do repositório, que segue abaixo, para clonar usando o atalho _**Ctrl + Shift + P**_ e digitando _**"Clonar"**_. Após, cole o seguinte texto:
+```git
 https://github.com/ldmfabio/1INFO1_estRepeticao.git
+```
 
 Ou, então, no terminal do VSCode, digite o seguinte comando
 ```git
@@ -61,10 +63,13 @@ Caso queira executar os comandos via terminal, após você finalizar a prova (e 
 ### **Via interface visual do VSCode**
 Ou, se for fazer via interface visual, a sequência de cliques é:
 - Adicionar alterações
+
 ![Stage all changes](1_stage.png)
 - Adicionar mensagem de commit e, então clicar em **_Commit_**
+
 ![Commit message](2_commit.png)
 - Sincronizar as alterações com o repositório remoto
+
 ![Sync Changes](3_syncChanges.png)
 
 
