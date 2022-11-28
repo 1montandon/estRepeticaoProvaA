@@ -33,7 +33,7 @@ git config user.email "Coloque o seu e-mail entre as aspas"
 - Não esqueça de logar com sua conta do GitHub no VSCode
 - Vá na guia onde você utiliza para enviar os arquivos para o GitHub e crie o **SEU** repositório do GitHub pelo próprio VSCode
   - Para tal, você poderá pressionar as teclas **_Ctrl + Shift + G_**;
-    - **OU**, clique na figura demonstrada abaixo;
+    - **OU**, clique na figura demonstrada abaixo.
   ![Ctrl + Shift + E](ctrlshifte.png)
   - Após, inicialize o seu repositório do GitHub, colocando o nome como _**"estRepeticaoProvaA"**_ ou _**"estRepeticaoProvaB"**_.
   - Para voltar aos arquivos, clique na primeira opção da barra de atividades, ou, então, pressione as teclas **_Ctrl + Shift + E_**.
