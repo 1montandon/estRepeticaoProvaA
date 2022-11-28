@@ -1,4 +1,4 @@
-# Exercícios - Prova A
+# Exercícios - Prova B
 
 ### **E01: Diário do Professor**
 
