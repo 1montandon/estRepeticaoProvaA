@@ -8,11 +8,21 @@
     */
 
     //Entrada
-
+    const quantasMalas = parseInt(prompt("informe quantas malas serao colocadas no veiculo"))
+    let pesoTotal = 0;
 
     //Processamento
-
-
+    for(contador = 1; contador <= quantasMalas; contador ++){
+        let pesoMala = Number(prompt(`informe o peso da mala de numero ${contador}`));
+        pesoTotal = pesoTotal + pesoMala;
+    }
+    const quantosFalta = pesoTotal - 150
     //Saída
+    if(pesoTotal <= 150){
+        document.write(`A viagem pode ser realizada, voce esta carregando um total de ${pesoTotal}KGs`)
+    }
+    else{
+        document.write(`A viagem nao pode ser realizada, voce esta carregando um total de ${pesoTotal}Kgs, deverão ser retirados ${quantosFalta}Kg` )
+    }
 
 </script>

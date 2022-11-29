@@ -7,11 +7,21 @@
     */
 
     //Entrada
-
+    const quantasNotas = parseInt(prompt("informe quantas notas serao lancas para o aluno"));
+    let pontosTotais = 0
 
     //Processamento
-
+    for(let contador = 1; contador <= quantasNotas; contador++){
+        let pontoAvalicao = Number(prompt(`informe qual a nota do aluno na avaliacao de numero${contador}(0-10)`));
+        pontosTotais = pontosTotais + pontoAvalicao
+    }
+    const mediaTotal = (pontosTotais/quantasNotas).toFixed(2)
 
     //Saída
-
+    if(mediaTotal < 5.99){
+        document.write(`Voce foi reprovado, sua media final foi de ${mediaTotal}`)
+    }
+    else if (mediaTotal >= 6 ){
+        document.write(`Parabens! voce foi aprovado com a media final de ${mediaTotal}`)
+    }
 </script>

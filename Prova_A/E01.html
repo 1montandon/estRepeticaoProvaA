@@ -6,11 +6,24 @@
     */
 
     //Entrada
-
-
+    let carneirosFemeas =0;
+    let carneirosMachos =0;
+    let carneirosIndefinidos = 0;
     //Processamento
-
+    for(let contador = 1 ; contador <= 20; contador++) {
+        let carneiroSexo = prompt(`o carneiro de numero ${contador} é macho ou femea? (Macho = M || Femea = F)`).toUpperCase();
+        if (carneiroSexo === "M"){
+            carneirosMachos = carneirosMachos + 1; 
+        }
+        else if(carneiroSexo === "F"){
+            carneirosFemeas = carneirosFemeas + 1;
+        }
+        else{
+            carneirosIndefinidos = carneirosIndefinidos + 1 
+        }
+    }
 
     //Saída
+    document.write(`A um total de ${carneirosMachos} Carneiros Machos </br> ${carneirosFemeas} Carneiros Femeas </br> ${carneirosIndefinidos} Carneiros Indefinidos `)
 
 </script>

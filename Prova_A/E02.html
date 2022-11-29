@@ -8,11 +8,15 @@
     */
 
     //Entrada
-
-
+let macasComidas = 0;
+let quantosAlunos = parseInt(prompt("informe quantos alunos foram para o refeitorio"))
     //Processamento
-
-
+for (let contador = 1; contador <= quantosAlunos; contador++){
+    let macaAluno = parseInt(prompt(`quantas macas o ${contador} aluno comeu?`));
+    macasComidas = macasComidas + macaAluno;
+}
+const mediaMaca = macasComidas/quantosAlunos
     //Saída
+    document.write(`No total, foram consumidas ${macasComidas} Maçãs, sendo uma media de ${mediaMaca} Macas por aluno `)
 
 </script>
